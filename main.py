@@ -7,7 +7,7 @@ class MusicPlayer():
     def sarki_ismi_degistir(self, value):
         self.song_name = value
 
-song1 = MusicPlayer("abc", "singer_abc")
+song1 = MusicPlayer("c", "singer_abc")
 print(song1.song_name, "şarkısının sanatçısı ", song1.singer)
 
 song1.sarki_ismi_degistir("def")
